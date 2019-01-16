@@ -1,0 +1,18 @@
+﻿<Window x:Class="ThreadCallBack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreadCallBack"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="179" Margin="88,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="179" Margin="468,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="31" Margin="88,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564"/>
+        <CheckBox x:Name="checkBox1" Content="文本区1" HorizontalAlignment="Left" Margin="129,368,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox2" Content="文本区2" HorizontalAlignment="Left" Margin="343,372,0,0" VerticalAlignment="Top"/>
+        <Button Content="提交" HorizontalAlignment="Left" Margin="562,373,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
